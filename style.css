@@ -1,0 +1,18 @@
+h3{
+    background-color: blanchedalmond;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#para{
+    background-color: rgb(164, 198, 187);
+    font-size: 40px;
+    color: rgb(17, 17, 218);
+    font-family: cursive;
+}
+
+p{
+    background-color: aliceblue;
+    font-family: sans-serif;
+    font-style: italic;
+}
