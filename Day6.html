@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+        .box {
+            background-color: lightblue;
+            border: 1px solid black;
+            padding: 20px;
+            margin: 5px;
+            text-align: center;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+             border: 2px solid rgb(216, 11, 11);
+            margin: 20px;
+            padding: 10px;
+        }
+
+        .column{
+            display: flex;
+            flex-direction: column;
+             border: 2px solid rgb(216, 11, 11);
+            margin: 20px;
+            padding: 10px;
+        }
+
+        .wrap{
+            display: flex;
+            flex-wrap: wrap;
+             border: 2px solid rgb(216, 11, 11);
+            margin: 20px;
+            padding: 10px;
+        }
+
+        .wrap{
+            width: 150px;
+             border: 2px solid rgb(216, 11, 11);
+            margin: 20px;
+            padding: 10px;
+        }
+
+        .center{
+            display: flex;
+            justify-content: center;
+             border: 2px solid rgb(216, 11, 11);
+            margin: 20px;
+            padding: 10px;
+        }
+
+        .space{
+            display: flex;
+            justify-content: space-between;
+             border: 2px solid rgb(216, 11, 11);
+            margin: 20px;
+            padding: 10px;
+        }
+
+        .vertical{
+            display: flex;
+            align-items: center;
+            height: 200px;
+            background-color: #f2f2f2;
+             border: 2px solid rgb(216, 11, 11);
+            margin: 20px;
+            padding: 10px;
+        }
+
+        .t{height: 120px; border: 2px solid rgb(216, 11, 11);
+            margin: 20px;
+            padding: 10px;}
+        .m{height: 80px; border: 2px solid rgb(216, 11, 11);
+            margin: 20px;
+            padding: 10px;}
+        .s{height: 50px; border: 2px solid rgb(216, 11, 11);
+            margin: 20px;
+            padding: 10px;}
+
+        .h{
+            visibility: hidden;
+        }
+
+        .blockspan{
+            display: block;
+            background-color: pink;
+            margin: 5px 0;
+            padding: 10px;
+        }
+</style>
+</head>
+<body>
+<div class="row">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+</div>
+
+<div class="column">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+    <div class="box">Box 4</div>
+</div>
+<div class="wrap">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+</div>
+
+<div class="center">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+</div>
+
+<div class="space">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+</div>
+
+<div class="vertical">
+    <div class="t">Tall</div>
+    <div class="m">Medium</div>
+    <div class="s">Short</div>
+</div>
+
+<button class="h">Hidden Button</button>
+<button>Visible Button</button>
+
+<div style="background-color: rgb(231, 58, 110); padding: 20px; border: 2px solid red;">
+    This div uses inline styling.
+</div>
+
+<span class="blockspan">Span 1</span>
+<span class="blockspan">Span 2</span>
+
+</body>
+</html>
