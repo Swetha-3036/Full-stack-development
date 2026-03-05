@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            color: rgb(21, 21, 172);
+        }
+        .main > p{
+            color: brown;
+
+        }
+        p + h1{
+            color: aqua;
+        }
+        div ~ p{
+            color: rgb(54, 14, 92);
+        }
+        img{
+            opacity: 0.5;
+        }
+        .image:hover{
+            opacity: 0.9;
+        }
+        a:visited{
+            color:green;
+        }
+        a:hover{
+            color: red;
+        }
+        .cls{
+            color: blue;
+            background-color: black;
+        }
+        #id1{
+            color: brown;
+            background-color: azure;
+        }
+        ol{
+            color:aquamarine;
+        }
+        ol:hover{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Hi,I am swetha from computer science and engineering </p>
+        <p>I am a fullstack developer</p>
+        <p>I know both front-end and back-end</p>
+    </div>
+
+    <div class="main">
+        <p>Direct child</p>
+        <section><p>indirect child</p></section>
+        <p>direct second child</p>
+    </div>
+
+    <p>this is a paragraph</p>
+    <h1>heading after para</h1>
+    <h1>heading after h1</h1>
+
+    <div>this is div tag</div>
+    <p>this is a para1</p>
+    <p>this is a para2</p>
+
+    <img src="https://img.freepik.com/premium-photo/world-animal-day-world-wildlife-day-groups-wild-beasts-were-gathered-hands-people_34998-712.jpg">
+    <img src="https://img.freepik.com/premium-photo/world-animal-day-world-wildlife-day-groups-wild-beasts-were-gathered-hands-people_34998-712.jpg"class="image">
+    
+    <a href="https://en.wikipedia.org/wiki/YouTube">youtube</a>
+
+    <ol type="I">
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
+        <li>react</li>
+    </ol>
+
+    <button class="cls">ok</button>
+    <button id="id1">cancel</button>
+    <button>confirm</button>
+</body>
+</html>
